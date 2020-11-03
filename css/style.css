@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color:#6F5876;
+	font-weight: 400;
+}
+
+/* HEADER START */
+
+#myNav{
+	border-radius: 0;
+	border:0;
+	padding:5px;
+	background-color:#9FC693;
+	box-shadow:0px 5px 5px rgba(0,0,0,0.4);
+}
+
+.navbar-header .navbar-brand{
+	color:black;
+	font-weight: bold;
+	font-size:24px;
+	border-radius:5px;
+	transition: background-color 0.2s ease-in;
+}
+
+.navbar-header .navbar-brand:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-inverse .navbar-nav li a{
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+	border-radius:5px;
+	transition: background-color 0.2s ease-in;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	background-color: rgba(0,0,0,0.3);
+
+}
+
+/* HEADER END */
+
+/* BODY START */
+
+#student{
+	height:400px;
+	width:100%;
+	border:solid 1px black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.4);
+	background: url("https://cdn.newsapi.com.au/image/v1/8ab3912b73da9c03428c0e89b8944093") no-repeat;
+	background-size:cover;
+	background-position: center;
+	margin-bottom:25px;
+	opacity:1;
+	transition: 0.2s;
+}
+
+#student:hover{
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.7);
+}
+#teacher{
+	height:400px;
+	width:100%;
+	border:solid 1px black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.4);
+	background: url("https://c8.alamy.com/comp/D7EF1Y/smiling-teacher-and-class-background-D7EF1Y.jpg") no-repeat;
+	background-size:cover;
+	background-position: 0px -100px;
+	margin-bottom:25px;
+	opacity:1;
+	transition: 0.2s;
+}
+#teacher:hover{
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.7);
+}
+
+#admin{
+	height:400px;
+	width:100%;
+	border:solid 1px black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.4);
+	background: url("https://storage.googleapis.com/conservativereview/2017/12/computer20hacker20Alexander20Geiger2004121720shutterstock_591402104.jpg") no-repeat;
+	background-size:cover;
+	background-position: center;
+	margin-bottom:25px;
+	opacity:1;
+	transition: 0.2s;
+}
+#admin:hover{
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.7);
+}
+
+.loginOption{
+	border: 1px solid black;
+	border-radius: 5px;
+	max-width: 50%;
+	margin: auto;
+	height:200px;
+	margin-top:100px;
+	background-color:rgba(0,0,0,0.5);
+	transition: 0.6s;
+	position: relative;
+}
+.loginOption:hover{
+	background-color:rgba(0,0,0,0.7);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+
+}
+
+.loginOption .btn{
+	padding:25px;
+	font-size:25px;
+	position: absolute;
+	bottom:0;
+}
+.captionBack{
+	height:120px;
+	border-radius: 8px;
+	background-color: rgba(255,255,255,0.4);
+	color:black;
+	font-weight: 700;
+	font-size: 26px;
+}
+/* BODY END */
