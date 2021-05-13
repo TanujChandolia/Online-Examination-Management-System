@@ -1,1 +1,1 @@
-# Online-Examination-Management-System
+# Xaminer - Online Examination Management System
